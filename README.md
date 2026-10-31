@@ -1,3 +1,15 @@
+# Trato Tech — catálogo e carrinho em React
+
+Interface com categorias de produtos e carrinho, construída com React, Redux Toolkit, React Router e Sass. O estado do carrinho é manipulado por um slice Redux; a página calcula o total a partir dos itens e quantidades.
+
+O botão **Finalizar Compra** apenas limpa o carrinho e navega para a página inicial. Não realiza pagamento nem registra um pedido persistido nesse fluxo. A busca local usa expressão regular; tratamento de entradas inválidas e demais comportamentos precisam de teste.
+
+## Execução local
+
+Na raiz, `npm install` prepara dependências e `npm start` aciona o script CRA. `npm run build` e `npm test` estão declarados em package.json.
+
+## Guia do Create React App
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -25,7 +37,7 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The generated files can be used for deployment.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
